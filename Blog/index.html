@@ -41,28 +41,33 @@
 	</div>
 		<div class="row">	
 			<div class = "col-sm-6 col-md-3">
-      				<a href = "#" class = "thumbnail">
+      				<a onclick="imageClicked('0')" class = "thumbnail">
          				<img src = "Desert.jpg" class="thumbnailheight" alt = "Generic placeholder thumbnail">
       				</a>
    			</div>
    
    			<div class = "col-sm-6 col-md-3">
-      				<a href = "#" class = "thumbnail setheight">
+      				<a onclick="imageClicked('1')" class = "thumbnail">
          				<img src = "santa.jpg" class="thumbnailheight" alt = "Generic placeholder thumbnail">
       				</a>
    			</div>
    
    			<div class = "col-sm-6 col-md-3">
-      				<a href = "#" class = "thumbnail setheight">
+      				<a onclick="imageClicked('2')" class = "thumbnail">
          				<img src = "Hydrangeas.jpg" class="thumbnailheight" alt = "Generic placeholder thumbnail">
       				</a>
    			</div>
    
    			<div class = "col-sm-6 col-md-3">
-      				<a href = "#" class = "thumbnail setheight">
+      				<a onclick="imageClicked('3')" class = "thumbnail">
          				<img src = "Chrysanthemum.jpg" class="thumbnailheight" alt = "Generic placeholder thumbnail">
       				</a>
    			</div>
+			<!-- The Modal -->
+			<div id="myModal" class="modal">
+  				<span class="close">&times;</span>
+  				<img class="modal-content" id="img01">
+			</div>
 		</div>
 	</div>
 	<div class="row">
@@ -87,5 +92,6 @@
 
 	<script src="js/jquery-3.1.1.min.js"></script>
 	<script src="js/bootstrap.min.js"></script> 
+	<script src="js/myscript.js"></script>
 </body>
 </html>
