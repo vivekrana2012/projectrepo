@@ -7,12 +7,14 @@
 .thumbnailheight {
 	opacity: 0.5;
 	min-height: 200px;
+	border-radius: 30px; 
+	transition: all 0.2s ease;
 }
 
 .thumbnailheight:hover {
 	opacity: 1;
-	min-height: 205px;
 	cursor: pointer;
+	border-radius: 0px; 
 }
 
 .parallax {
@@ -94,14 +96,12 @@
 
 .tab{
 	height:30px;
-	width:100px;
 	overflow:hidden;
 	cursor: pointer;
 	font-family:"Comic Sans MS",cursive,sans-serif;
 }
 .visibleTab{
 	height:30px;
-	width:100px;
 	text-align:center;
 	vertical-align:middle;
 	line-height:30px;
@@ -109,7 +109,6 @@
 }
 .invisibleTab{
 	height:30px;
-	width:100px;
 	background-color:black;
 	line-height:30px;
 	text-align:center;
@@ -120,4 +119,8 @@
 
 .tab:hover .visibleTab{
 	margin-top: -30px;
+}
+
+.title{
+	font-family:"Comic Sans MS",cursive,sans-serif;
 }
