@@ -1,0 +1,320 @@
+﻿
+.backdiv{
+                position: relative;
+                margin: 0px;
+                height: 100%;
+                width: 100%;
+		overflow: hidden;         
+}
+
+#backImg{
+        height: 100%;
+        object-fit: cover;
+        width: 100%;
+        position: relative;
+
+}
+ 
+#firstBox{
+                position: relative;
+                margin: 0px;
+                height: 50%;
+                width: 100%;
+                overflow: hidden;
+                background-color: rgb(255,143,15);
+}
+ 
+#secondBox{
+                position: relative;
+                margin: 0px;
+                height: 50%;
+                width: 100%;
+                overflow: hidden;
+                background-color: white;
+}
+
+.siteTitle{
+        position: relative;
+        cursor: pointer;
+        height: 25%;
+        width: 45%;
+        margin-top: -500px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 50% 50%;
+}
+ 
+#jump{
+                position: relative;
+                margin-left: 46.5%;
+                margin-top: 150px;
+                height: 60px;
+                width: 135px;
+		font-family: 'Covered By Your Grace', cursive;
+		font-size: 35px;
+                letter-spacing: 2px;
+                text-align: center;
+                cursor: pointer;
+                color: white;
+}
+
+#jump:hover{
+        font-size: 31px;
+} 
+
+.firstDiv{
+        position: relative;
+        float: left;
+        margin: 2%;
+        height: 90%;
+        padding: 0.5%;
+        width: 30%;
+        border: 1px solid silver;
+}
+
+.firstDiv:hover{
+        border: 0px;
+}
+
+.firstPic{
+        position: relative;
+        width: 100%;
+        height: 70%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 50% 50%;
+}
+
+.secondDiv{
+        position: relative;
+        float: left;
+        margin-top: 2%;
+        padding: 0.5%;
+        height: 50%;
+        width: 22%;
+        border: 1px solid silver;
+}
+
+.secondDiv:hover{
+        border: 0px;
+}
+
+.secondPic{
+        position: relative;
+        height: 100%;
+        width: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 50% 50%;
+}
+
+.thirdDiv{
+        position: relative;
+        float: right;
+        margin: 2%;
+        padding: 0.5%;
+        height: 50%;
+        width: 40%;
+        border: 1px solid silver;
+}
+
+.thirdDiv:hover{
+        border: 0px;
+}
+
+.thirdPic{
+        position: relative;
+        float: right;
+        height: 100%;
+        width: 60%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 50% 50%;
+}
+
+.fourthDiv{
+        position: relative;
+        float: left;
+        margin-right: 2%;
+        padding: 0.5%;
+        height: 38%;
+        width: 40%;
+        border: 1px solid silver;
+}
+
+.fourthDiv:hover{
+        border: 0px;
+}
+
+.fourthPic{
+        position: relative;
+        float: left;
+        height: 100%;
+        width: 60%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 50% 50%;
+}
+
+.fifthDiv{
+        position: relative;
+        float: left;
+        margin-right: 2%;
+        padding: 0.5%;
+        height: 38%;
+        width: 22%;
+        border: 1px solid silver;
+}
+
+.fifthDiv:hover{
+        border: 0px;
+}
+
+.fifthPic{
+        position: relative;
+        float: right;
+        height: 100%;
+        width: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 50% 50%;       
+}
+
+.articleSection{
+        position: relative;
+        height: 200%;
+        width: 100%;
+        background-color: white;
+}
+
+.leftSide{
+        position: relative;
+        height: 30%;
+        float: left;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 50% 50%;
+        color: #747474;
+        background-color: rgb(234,234,234);
+        text-align: center;
+}
+
+.rightSide{
+        position: relative;
+        height: 30%;
+        float: left;
+        color: #747474;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 50% 50%;
+        background-color: rgb(234,234,234);
+        text-align: center;
+}
+
+.articleHeading{
+        margin-top: 25%;
+        position: relative;
+        font-family: 'Lato', sans-serif;
+        font-size: 35px;
+}
+
+.articleWriter{
+        position: relative;
+        opacity: 0.5;
+}
+
+.articleBody{
+        position: relative;
+        margin-left: 20%;
+        margin-right: 20%;
+}
+
+.discoverNow{
+        position: relative;
+        cursor: pointer;
+        margin: auto;
+        border: 1px solid; 
+        width: 25%;
+        height: 40px;
+        text-align: center;
+        line-height: 40px; 
+        transition: all 0.2s ease;
+}
+
+.discoverNow:hover{
+        background-color: #747474;
+        color: white;
+}
+
+.parallex{
+        position: relative;
+        height: 40%;
+        width: 100%;
+        overflow: hidden;
+        color: white;
+        text-align: center;
+}
+
+.parallexBg{
+        position: absolute;
+        height: 300%;
+        background-size: cover;
+        width: 100%;
+}
+
+.parallexHeading{
+        position: relative;
+        margin-top: 10%;
+        font-family: 'Lato', sans-serif;
+        font-size: 50px;
+}
+
+.parallexWriter{
+        position: relative;
+}
+
+.parallexBody{
+        position: relative;
+        margin-left: 30%;
+        margin-right: 30%;
+}
+
+.parallexDiscover{
+        position: relative;
+        cursor: pointer;
+        margin: auto;
+        border: 1px solid; 
+        width: 15%;
+        height: 40px;
+        text-align: center;
+        line-height: 40px; 
+        transition: all 0.2s ease;
+}
+
+.parallexDiscover:hover{
+        color: black;
+}
+
+.videoSection{
+        position: relative;
+        height: 50%;
+        width: 100%;
+        padding-top: 1.5%;
+        padding-left: 25%;
+}
+
+.videoOuterDiv{
+        position: relative;
+        height: 90%;
+        width: 65%;
+}
+
+.videoDiv{
+        position: relative;
+        float: left;
+        margin-left: 2%;
+        margin-top: 2%;
+        height: 45%;
+        width: 48%;
+        border: 1px solid silver;
+}
